@@ -1,2 +1,48 @@
-# Monika-AI-Shitposter-Telegram-BOT
-Monika Shitposter on google-generativeai + Google Image Search API
+Это простой скрипт для ИИ Моники-щитпостера с картинками с интернета на aiogram.
+
+
+1️⃣Получаем API токен для поиска картинок:
+
+1. Перейдите на https://console.cloud.google.com/
+
+2. Авторизуйтесь через Google.
+
+3. В поиске найдите Custom Search API.
+
+4. Активируйте.
+
+5. Заходите на Credentials и создам токен.
+
+
+
+2️⃣Получаем API токен AI Studio(Gemini):
+
+1. Перейдите на сайт: https://aistudio.google.com/app/apikey
+
+2. Авторизуйтесь через Google.
+
+3. Нажмите "Создать API ключ".
+
+4. Скопируйте API Key.
+
+
+
+3️⃣олучаем CX (Search Engine ID)
+
+1. Зайдите на https://programmablesearchengine.google.com/
+
+2. Нажмите "Добавить" → Введите любой сайт, например ddlc.moe, или оставьте *.google.com для поиска по всей сети.
+
+3. После создания — зайдите в Панель управления → Скопируйте CX (Идентификатор поисковой системы).
+
+4. Добавьте SEARCH_CX=ваш_cx в .env.
+
+
+
+4️⃣Полученные ключи скопируйте в соответствующие переменные.
+
+
+
+5️⃣Устанавливем библиотеки:
+```bash
+pip install -r requirements.txt

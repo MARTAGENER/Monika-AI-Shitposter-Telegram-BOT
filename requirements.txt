@@ -1,0 +1,5 @@
+aiogram
+google-generativeai
+httpx
+keystone-engine
+termcolor
